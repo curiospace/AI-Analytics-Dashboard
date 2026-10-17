@@ -1,0 +1,606 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-05T14:00:03+00:00",
+  "title": "Design System: Modern Furniture Co. Analytics",
+  "extensions": {
+    "colorMeta": {
+      "bg": {
+        "role": "neutral",
+        "displayName": "Cool Page",
+        "canonical": "oklch(96.7% 0.003 264.5)",
+        "tonalRamp": [
+          "#0b0b0c",
+          "#232425",
+          "#3f4041",
+          "#5d5e5f",
+          "#7c7d7f",
+          "#9d9ea0",
+          "#c3c4c6",
+          "#edeef0"
+        ]
+      },
+      "panel": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "canonical": "oklch(100.0% 0.000 89.9)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#242424",
+          "#404040",
+          "#5d5d5d",
+          "#7d7d7d",
+          "#9e9e9e",
+          "#c4c4c4",
+          "#eeeeee"
+        ]
+      },
+      "panel-2": {
+        "role": "neutral",
+        "displayName": "Faint Paper",
+        "canonical": "oklch(97.9% 0.003 264.5)",
+        "tonalRamp": [
+          "#0b0b0c",
+          "#232425",
+          "#3f4041",
+          "#5d5e5f",
+          "#7c7d7f",
+          "#9d9ea0",
+          "#c3c4c6",
+          "#edeef0"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "oklch(92.4% 0.008 260.7)",
+        "tonalRamp": [
+          "#090b0e",
+          "#222428",
+          "#3d4044",
+          "#5b5e62",
+          "#7b7d82",
+          "#9c9ea3",
+          "#c1c4c9",
+          "#eceff4"
+        ]
+      },
+      "line-strong": {
+        "role": "neutral",
+        "displayName": "Firm Hairline",
+        "canonical": "oklch(88.4% 0.011 261.8)",
+        "tonalRamp": [
+          "#090b10",
+          "#212429",
+          "#3d4045",
+          "#5a5e64",
+          "#7a7d84",
+          "#9b9fa5",
+          "#c0c4cb",
+          "#ebeff6"
+        ]
+      },
+      "control-line": {
+        "role": "neutral",
+        "displayName": "Control Line",
+        "canonical": "oklch(64.4% 0.020 258.4)",
+        "tonalRamp": [
+          "#060b14",
+          "#1e242e",
+          "#39404b",
+          "#575e69",
+          "#767e8a",
+          "#979fab",
+          "#bcc5d2",
+          "#e6effc"
+        ]
+      },
+      "track": {
+        "role": "neutral",
+        "displayName": "Track",
+        "canonical": "oklch(95.4% 0.005 258.3)",
+        "tonalRamp": [
+          "#0a0b0d",
+          "#232426",
+          "#3e4042",
+          "#5c5e60",
+          "#7c7d80",
+          "#9d9ea1",
+          "#c2c4c7",
+          "#edeff2"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "oklch(19.8% 0.025 256.5)",
+        "tonalRamp": [
+          "#050b16",
+          "#1c2530",
+          "#37404d",
+          "#555e6c",
+          "#747e8d",
+          "#949fae",
+          "#bac5d5",
+          "#e5f0ff"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Graphite",
+        "canonical": "oklch(50.3% 0.026 256.8)",
+        "tonalRamp": [
+          "#050b16",
+          "#1c2530",
+          "#37404d",
+          "#555e6c",
+          "#747e8d",
+          "#959faf",
+          "#bac5d5",
+          "#e5efff"
+        ]
+      },
+      "snow": {
+        "role": "neutral",
+        "displayName": "Snow",
+        "canonical": "oklch(92.7% 0.010 261.8)",
+        "tonalRamp": [
+          "#090b10",
+          "#212429",
+          "#3d4045",
+          "#5a5e64",
+          "#7a7d84",
+          "#9b9fa5",
+          "#c0c4cb",
+          "#ebeff6"
+        ]
+      },
+      "night-line": {
+        "role": "neutral",
+        "displayName": "Night Rule",
+        "canonical": "oklch(30.6% 0.033 255.8)",
+        "tonalRamp": [
+          "#030b19",
+          "#192534",
+          "#344151",
+          "#515f71",
+          "#707f91",
+          "#91a0b3",
+          "#b6c6da",
+          "#e4f0ff"
+        ]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Signal Blue",
+        "canonical": "oklch(54.7% 0.250 265.8)",
+        "tonalRamp": [
+          "#010134",
+          "#040972",
+          "#0e03c0",
+          "#1c40e7",
+          "#406ff9",
+          "#719afc",
+          "#aac4fc",
+          "#e7effe"
+        ]
+      },
+      "accent-deep": {
+        "role": "primary",
+        "displayName": "Signal Blue Deep",
+        "canonical": "oklch(48.0% 0.250 265.8)",
+        "tonalRamp": [
+          "#010134",
+          "#050972",
+          "#0e03c0",
+          "#1c40e7",
+          "#416ff9",
+          "#719afc",
+          "#aac4fc",
+          "#e7effe"
+        ]
+      },
+      "accent-light": {
+        "role": "primary",
+        "displayName": "Signal Blue on Ink",
+        "canonical": "oklch(76.4% 0.120 266.3)",
+        "tonalRamp": [
+          "#010035",
+          "#091a5d",
+          "#223a7e",
+          "#3e59a1",
+          "#5c7ac4",
+          "#7c9ce9",
+          "#aac3fd",
+          "#e7effe"
+        ]
+      },
+      "alert": {
+        "role": "secondary",
+        "displayName": "Alarm Red",
+        "canonical": "oklch(57.9% 0.206 23.2)",
+        "tonalRamp": [
+          "#1e0002",
+          "#48050b",
+          "#7b0215",
+          "#b00924",
+          "#dd323d",
+          "#fe6364",
+          "#fdaba6",
+          "#fee9e7"
+        ]
+      },
+      "alert-light": {
+        "role": "secondary",
+        "displayName": "Alarm Red on Ink",
+        "canonical": "oklch(76.9% 0.138 15.8)",
+        "tonalRamp": [
+          "#1e0004",
+          "#480313",
+          "#780d26",
+          "#9c3443",
+          "#c15661",
+          "#e77781",
+          "#fdaaaf",
+          "#fee8e9"
+        ]
+      },
+      "ok": {
+        "role": "tertiary",
+        "displayName": "Ok Green",
+        "canonical": "oklch(56.0% 0.134 152.5)",
+        "tonalRamp": [
+          "#001004",
+          "#042c14",
+          "#014d25",
+          "#057139",
+          "#2c9355",
+          "#53b675",
+          "#7bdd9a",
+          "#c6ffd5"
+        ]
+      },
+      "series": {
+        "role": "neutral",
+        "displayName": "Pewter Series",
+        "canonical": "oklch(61.1% 0.027 259.8)",
+        "tonalRamp": [
+          "#050b16",
+          "#1c2431",
+          "#37404e",
+          "#555e6d",
+          "#747e8e",
+          "#959fb0",
+          "#bac5d6",
+          "#e6effe"
+        ]
+      },
+      "series-4": {
+        "role": "primary",
+        "displayName": "Fourth Series",
+        "canonical": "oklch(59.0% 0.119 266.2)",
+        "tonalRamp": [
+          "#010034",
+          "#091a5c",
+          "#223a7e",
+          "#3e59a0",
+          "#5c7ac4",
+          "#7c9ce9",
+          "#aac3fc",
+          "#e7effe"
+        ]
+      },
+      "bar": {
+        "role": "neutral",
+        "displayName": "Bar Grey",
+        "canonical": "oklch(85.0% 0.012 259.8)",
+        "tonalRamp": [
+          "#080b10",
+          "#21242a",
+          "#3c4046",
+          "#5a5e65",
+          "#797e85",
+          "#9a9fa6",
+          "#bfc4cc",
+          "#eaeff7"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "The page title. One per page."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "KPI figures; blue for the good signal, red for a problem count, a dash when missing. 24px in narrow columns."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Panel, card and chat-header titles."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Captions, legends, list labels, KPI sub-lines, loading, empty and error messages."
+      },
+      "body-chat": {
+        "displayName": "Body Chat",
+        "purpose": "Chat answers, questions, composer and starter questions; 16px inputs on phones."
+      },
+      "action": {
+        "displayName": "Action",
+        "purpose": "Button labels."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Mono uppercase KPI labels, units, Signals tags. 11px (--text-meta) is the product-wide size floor; tool steps use it without uppercase."
+      },
+      "data": {
+        "displayName": "Data",
+        "purpose": "Mono values with tabular numerals beside ranked bars; chart ticks use the mono face at the 11px floor."
+      },
+      "small": {
+        "displayName": "Small",
+        "purpose": "The chat footnote and a chart card's fallback reason; in mono for chat table cells and SQL, to fit the 440px column."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "ease-arrive",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "The one easing for everything that arrives."
+      },
+      {
+        "name": "chart-enter",
+        "value": "600ms cubicOut",
+        "purpose": "First draw of a chart: lines write in left to right, once."
+      },
+      {
+        "name": "chart-update",
+        "value": "400ms cubicOut",
+        "purpose": "Data change (filter): marks morph to new values instead of redrawing."
+      },
+      {
+        "name": "stale-dim",
+        "value": "opacity 1 to 0.5, 200ms",
+        "purpose": "Previous data stays visible but dimmed while a filter change loads."
+      },
+      {
+        "name": "bar-slide",
+        "value": "width 300ms ease-arrive",
+        "purpose": "Ranked bars slide to new lengths."
+      },
+      {
+        "name": "drawer-in",
+        "value": "260ms ease-arrive, from opacity 0 and translateX(24px)",
+        "purpose": "Chat column arrives from the side it docks on; closes instantly."
+      },
+      {
+        "name": "fade-in",
+        "value": "180ms ease-out",
+        "purpose": "New chat messages; also the reduced-motion entrance for the chat."
+      },
+      {
+        "name": "hover-fade",
+        "value": "150ms colours",
+        "purpose": "Hover feedback on buttons."
+      },
+      {
+        "name": "pulse-running",
+        "value": "2s cubic-bezier(0.4, 0, 0.6, 1) infinite",
+        "purpose": "Running chat tool step; off under reduced motion."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "prefers-reduced-motion: reduce",
+        "purpose": "Charts update without animation, bars jump, chat fades only; opacity and colour feedback remain."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "640px",
+        "purpose": "Gutter 16 to 24px; filters stop filling the row."
+      },
+      {
+        "name": "lg",
+        "value": "1024px",
+        "purpose": "Gutter 36px; the chat docks as a 440px column (below, a full-screen dialog)."
+      },
+      {
+        "name": "@2xl (container)",
+        "value": "42rem",
+        "purpose": "KPIs 3 columns, Signals 2, compact panels 2 (third spans the row)."
+      },
+      {
+        "name": "@5xl (container)",
+        "value": "64rem",
+        "purpose": "KPIs 6 columns; orders and revenue charts side by side at 2:1."
+      },
+      {
+        "name": "@6xl (container)",
+        "value": "72rem",
+        "purpose": "Signals 4 columns, compact panels 3."
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The single solid action per view, e.g. Ask the data. Hover fades to Signal Blue Deep.",
+      "html": "<button class=\"ds-btn-primary\" type=\"button\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8L12 3z\"/></svg>Ask the data</button>",
+      "css": ".ds-btn-primary { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 18px; border: 0; border-radius: var(--radius-control, 10px); background: var(--color-accent, #2b59ff); color: #fff; font-family: var(--font-sans, 'Hanken Grotesk', system-ui, sans-serif); font-size: 14px; font-weight: 600; cursor: pointer; transition: background-color 150ms; } .ds-btn-primary:hover { background: var(--color-accent-deep, #1c40e7); } .ds-btn-primary:focus-visible { outline: 2px solid var(--color-accent, #2b59ff); outline-offset: 2px; } .ds-btn-primary:disabled { opacity: 0.4; cursor: default; }"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Quiet action with a visible Control Line edge: Table, View SQL, Try again. 44px tall on touch screens.",
+      "html": "<button class=\"ds-btn-secondary\" type=\"button\">Try again</button>",
+      "css": ".ds-btn-secondary { min-height: 36px; padding: 0 12px; border: 1px solid var(--color-control-line, #868e9a); border-radius: 8px; background: var(--color-panel, #fff); color: var(--color-ink, #0e1621); font-family: var(--font-sans, 'Hanken Grotesk', system-ui, sans-serif); font-size: 13px; font-weight: 500; cursor: pointer; transition: background-color 150ms; } .ds-btn-secondary:hover { background: var(--color-track, #eef0f3); } .ds-btn-secondary:focus-visible { outline: 2px solid var(--color-accent, #2b59ff); outline-offset: 2px; } @media (pointer: coarse) { .ds-btn-secondary { min-height: 44px; } }"
+    },
+    {
+      "name": "Icon Button",
+      "kind": "button",
+      "refersTo": "icon-button",
+      "description": "44px transparent icon control with an accessible label (close, new chat).",
+      "html": "<button class=\"ds-icon-btn\" type=\"button\" aria-label=\"Close chat\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" aria-hidden=\"true\"><path d=\"M6 6l12 12M18 6L6 18\"/></svg></button>",
+      "css": ".ds-icon-btn { display: grid; place-items: center; width: 44px; height: 44px; border: 0; border-radius: var(--radius-control, 10px); background: transparent; color: var(--color-muted, #5b6573); cursor: pointer; transition: background-color 150ms; } .ds-icon-btn:hover { background: var(--color-track, #eef0f3); } .ds-icon-btn:focus-visible { outline: 2px solid var(--color-accent, #2b59ff); outline-offset: 2px; }"
+    },
+    {
+      "name": "Filter Field",
+      "kind": "input",
+      "refersTo": "filter-field",
+      "description": "Inline-labelled select with a Control Line edge; the focus outline is drawn on the frame.",
+      "html": "<label class=\"ds-filter\">Product <select><option>All products</option><option>Bookshelf</option><option>Sideboard</option></select></label>",
+      "css": ".ds-filter { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 14px; border: 1px solid var(--color-control-line, #868e9a); border-radius: var(--radius-control, 10px); background: var(--color-panel, #fff); color: var(--color-muted, #5b6573); font-family: var(--font-sans, 'Hanken Grotesk', system-ui, sans-serif); font-size: 14px; } .ds-filter select { border: 0; outline: none; background: transparent; color: var(--color-ink, #0e1621); font: inherit; font-weight: 600; } .ds-filter:focus-within { outline: 2px solid var(--color-accent, #2b59ff); outline-offset: 2px; }"
+    },
+    {
+      "name": "Page Header",
+      "kind": "nav",
+      "refersTo": "brand-mark",
+      "description": "One page, no navigation: the ink brand mark sits with the title and the data range.",
+      "html": "<header class=\"ds-header\"><div class=\"ds-mark\" role=\"img\" aria-label=\"Modern Furniture Co.\">M</div><div><h1>Operations overview</h1><p>Jan 2025 – Dec 2026</p></div></header>",
+      "css": ".ds-header { display: flex; align-items: flex-start; gap: 12px; color: var(--color-ink, #0e1621); font-family: var(--font-sans, 'Hanken Grotesk', system-ui, sans-serif); } .ds-mark { display: grid; place-items: center; width: 32px; height: 32px; margin-top: 2px; flex: none; border-radius: 9px; background: var(--color-ink, #0e1621); color: #fff; font-size: 14px; font-weight: 700; } .ds-header h1 { margin: 0; font-size: 30px; font-weight: 700; line-height: 1.2; letter-spacing: -0.025em; } .ds-header p { margin: 0; color: var(--color-muted, #5b6573); font-size: 16px; }"
+    },
+    {
+      "name": "KPI Card",
+      "kind": "card",
+      "refersTo": "kpi-card",
+      "description": "Mono label, headline figure, plain-English sub-line. Blue for the good signal, red for the problem, a dash for a missing value.",
+      "html": "<div class=\"ds-kpi\"><div class=\"ds-kpi-label\">On-time delivery</div><div class=\"ds-kpi-value is-signal\">86.7%</div><div class=\"ds-kpi-sub\">397 of 458 delivered</div></div>",
+      "css": ".ds-kpi { display: flex; flex-direction: column; gap: 8px; padding: 18px 20px; border: 1px solid var(--color-line, #e3e6eb); border-radius: var(--radius-panel, 14px); background: var(--color-panel, #fff); max-width: 240px; } .ds-kpi-label { font-family: var(--font-mono, 'IBM Plex Mono', ui-monospace, monospace); font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-muted, #5b6573); } .ds-kpi-value { font-family: var(--font-sans, 'Hanken Grotesk', system-ui, sans-serif); font-size: 30px; font-weight: 700; line-height: 1; letter-spacing: -0.025em; color: var(--color-ink, #0e1621); } .ds-kpi-value.is-signal { color: var(--color-accent, #2b59ff); } .ds-kpi-value.is-alarm { color: var(--color-alert, #d92d3a); } .ds-kpi-sub { font-family: var(--font-sans, 'Hanken Grotesk', system-ui, sans-serif); font-size: 14px; color: var(--color-muted, #5b6573); }"
+    },
+    {
+      "name": "Ranked Bars Panel",
+      "kind": "card",
+      "refersTo": "panel",
+      "description": "Flat panel with ranked bars: leader blue, rest grey, worst red on performance rankings; bars slide to new lengths.",
+      "html": "<section class=\"ds-panel\"><header><h2>Profit per order</h2><span>USD</span></header><ul><li><span>Sideboard</span><i><b style=\"width:100%\" class=\"lead\"></b></i><em>$5,600</em></li><li><span>Office Desk</span><i><b style=\"width:82%\"></b></i><em>$4,580</em></li><li><span>Media Console</span><i><b style=\"width:56%\" class=\"worst\"></b></i><em>$3,163</em></li></ul></section>",
+      "css": ".ds-panel { display: flex; flex-direction: column; gap: 16px; padding: 20px; border: 1px solid var(--color-line, #e3e6eb); border-radius: var(--radius-panel, 14px); background: var(--color-panel, #fff); color: var(--color-ink, #0e1621); font-family: var(--font-sans, 'Hanken Grotesk', system-ui, sans-serif); max-width: 380px; } .ds-panel header { display: flex; justify-content: space-between; align-items: center; } .ds-panel h2 { margin: 0; font-size: 16px; font-weight: 700; } .ds-panel header span { font-family: var(--font-mono, 'IBM Plex Mono', ui-monospace, monospace); font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-muted, #5b6573); } .ds-panel ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 14px; } .ds-panel li { display: flex; align-items: center; gap: 12px; font-size: 14px; } .ds-panel li span { width: 112px; flex: none; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; } .ds-panel li i { flex: 1; height: 8px; border-radius: 4px; background: var(--color-track, #eef0f3); } .ds-panel li b { display: block; height: 8px; border-radius: 4px; background: var(--color-bar, #c9ced6); transition: width 300ms var(--ease-arrive, cubic-bezier(0.16, 1, 0.3, 1)); } .ds-panel li b.lead { background: var(--color-accent, #2b59ff); } .ds-panel li b.worst { background: var(--color-alert, #d92d3a); } .ds-panel li em { min-width: 64px; flex: none; text-align: right; font-style: normal; font-family: var(--font-mono, 'IBM Plex Mono', ui-monospace, monospace); font-size: 13px; font-variant-numeric: tabular-nums; } @media (prefers-reduced-motion: reduce) { .ds-panel li b { transition: none; } }"
+    },
+    {
+      "name": "Panel States",
+      "kind": "custom",
+      "refersTo": "panel",
+      "description": "The loading, error-with-retry and empty states every data panel shares.",
+      "html": "<div class=\"ds-states\"><section><h2>Where the hours go</h2><p class=\"muted\" role=\"status\">Loading production hours…</p></section><section><h2>Profit per order</h2><p class=\"alarm\">Couldn't load profit by product. The data server hit a problem (502). Try again in a moment.</p><button type=\"button\">Try again</button></section><section><h2>Delivery</h2><p class=\"muted\">No orders were delivered in this range.</p></section></div>",
+      "css": ".ds-states { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; font-family: var(--font-sans, 'Hanken Grotesk', system-ui, sans-serif); max-width: 760px; } .ds-states section { display: flex; flex-direction: column; align-items: flex-start; gap: 10px; padding: 20px; border: 1px solid var(--color-line, #e3e6eb); border-radius: var(--radius-panel, 14px); background: var(--color-panel, #fff); } .ds-states h2 { margin: 0; font-size: 16px; font-weight: 700; color: var(--color-ink, #0e1621); } .ds-states p { margin: 0; font-size: 14px; line-height: 1.43; } .ds-states .muted { color: var(--color-muted, #5b6573); } .ds-states .alarm { color: var(--color-alert, #d92d3a); } .ds-states button { min-height: 36px; padding: 0 12px; border: 1px solid var(--color-control-line, #868e9a); border-radius: 8px; background: var(--color-panel, #fff); color: var(--color-ink, #0e1621); font-family: var(--font-sans, 'Hanken Grotesk', system-ui, sans-serif); font-size: 13px; font-weight: 500; cursor: pointer; transition: background-color 150ms; } .ds-states button:hover { background: var(--color-track, #eef0f3); } .ds-states button:focus-visible { outline: 2px solid var(--color-accent, #2b59ff); outline-offset: 2px; }"
+    },
+    {
+      "name": "Signals Strip",
+      "kind": "custom",
+      "refersTo": "panel-signals",
+      "description": "The one dark surface: computed plain-English findings with mono tags.",
+      "html": "<section class=\"ds-signals\"><h2>Signals</h2><div><article><span class=\"neutral\">Bottleneck</span><p>Joinery takes 40% of labour hours: 29.8 of 74.6 hours per order.</p></article><article><span class=\"problem\">On-time</span><p>On-time delivery fell to 18% in November 2025, after 5 resignations in the previous 4 months.</p></article></div></section>",
+      "css": ".ds-signals { padding: 20px; border-radius: var(--radius-panel, 14px); background: var(--color-ink, #0e1621); color: var(--color-snow, #e3e7ee); font-family: var(--font-sans, 'Hanken Grotesk', system-ui, sans-serif); max-width: 620px; } .ds-signals h2 { margin: 0 0 16px; font-size: 16px; font-weight: 700; } .ds-signals > div { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); gap: 16px 24px; } .ds-signals article { display: flex; flex-direction: column; gap: 6px; padding-top: 14px; border-top: 1px solid var(--color-night-line, #243040); } .ds-signals span { font-family: var(--font-mono, 'IBM Plex Mono', ui-monospace, monospace); font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; } .ds-signals .neutral { color: var(--color-accent-light, #8fb0ff); } .ds-signals .problem { color: var(--color-alert-light, #ff8d96); } .ds-signals p { margin: 0; font-size: 14px; line-height: 1.625; }"
+    },
+    {
+      "name": "Chat Exchange",
+      "kind": "custom",
+      "refersTo": "chat-bubble-user",
+      "description": "User question as an Ink bubble, tool steps in a mono well, the answer as plain text; messages fade in.",
+      "html": "<div class=\"ds-chat\"><div class=\"ds-bubble\">Did resignations hurt on-time delivery?</div><ul class=\"ds-steps\"><li><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12l5 5 9-10\"/></svg>run_sql · orders_data, hr_events_log</li><li><span class=\"ds-dot\"></span>make_chart · line</li></ul><p>On-time delivery fell to 18% in November 2025, after 5 resignations in the previous 4 months. That is a pattern in timing, not proof of cause.</p></div>",
+      "css": ".ds-chat { display: flex; flex-direction: column; gap: 12px; max-width: 400px; color: var(--color-ink, #0e1621); font-family: var(--font-sans, 'Hanken Grotesk', system-ui, sans-serif); animation: ds-fade 180ms ease-out; } @keyframes ds-fade { from { opacity: 0; } } .ds-bubble { align-self: flex-end; max-width: 80%; padding: 12px 16px; border-radius: 16px 16px 2px 16px; background: var(--color-ink, #0e1621); color: #fff; font-size: 15px; line-height: 1.375; overflow-wrap: anywhere; } .ds-steps { list-style: none; margin: 0; padding: 10px 12px; display: flex; flex-direction: column; gap: 6px; border-radius: 8px; background: var(--color-bg, #f3f4f6); font-family: var(--font-mono, 'IBM Plex Mono', ui-monospace, monospace); font-size: 11px; color: var(--color-muted, #5b6573); } .ds-steps li { display: flex; align-items: center; gap: 8px; } .ds-steps svg { color: var(--color-ok, #1f8a4c); } .ds-dot { width: 10px; height: 10px; margin: 2px; border-radius: 999px; background: var(--color-accent, #2b59ff); animation: ds-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite; } @keyframes ds-pulse { 50% { opacity: 0.5; } } @media (prefers-reduced-motion: reduce) { .ds-dot { animation: none; } } .ds-chat p { margin: 0; font-size: 15px; line-height: 1.625; }"
+    },
+    {
+      "name": "Chat Composer",
+      "kind": "input",
+      "refersTo": "composer",
+      "description": "Question field with a Control Line edge and the Signal Blue Send button inside; focus outline on the frame.",
+      "html": "<form class=\"ds-composer\" onsubmit=\"return false\"><input aria-label=\"Ask a question\" placeholder=\"Ask about orders, costs, staff…\"><button type=\"submit\" aria-label=\"Send\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></button></form>",
+      "css": ".ds-composer { display: flex; align-items: center; gap: 8px; max-width: 400px; padding: 6px 6px 6px 16px; border: 1px solid var(--color-control-line, #868e9a); border-radius: var(--radius-panel, 14px); background: var(--color-panel, #fff); } .ds-composer:focus-within { outline: 2px solid var(--color-accent, #2b59ff); outline-offset: 2px; } .ds-composer input { flex: 1; min-width: 0; border: 0; outline: 0; background: transparent; font-family: var(--font-sans, 'Hanken Grotesk', system-ui, sans-serif); font-size: 15px; color: var(--color-ink, #0e1621); } .ds-composer input::placeholder { color: var(--color-muted, #5b6573); } .ds-composer button { display: grid; place-items: center; width: 44px; height: 44px; flex: none; border: 0; border-radius: var(--radius-control, 10px); background: var(--color-accent, #2b59ff); color: #fff; cursor: pointer; transition: opacity 150ms; } .ds-composer button:disabled { opacity: 0.4; }"
+    },
+    {
+      "name": "Chat Data Table",
+      "kind": "custom",
+      "refersTo": "chat-column",
+      "description": "The Table view of a chat chart: values formatted as the chart shows them (whole dollars, 86.4%, 'Nov 25'), numbers right-aligned in tabular mono, scrolling inside a focusable region.",
+      "html": "<div class=\"ds-table\" tabindex=\"0\" role=\"region\" aria-label=\"Profit per order by product: data table\"><table><thead><tr><th>product</th><th class=\"num\">avg_profit</th></tr></thead><tbody><tr><td>Sideboard</td><td class=\"num\">$5,600</td></tr><tr><td>Dining Table</td><td class=\"num\">$4,653</td></tr><tr><td>Media Console</td><td class=\"num\">$3,163</td></tr></tbody></table></div>",
+      "css": ".ds-table { max-width: 360px; max-height: 256px; overflow: auto; border: 1px solid var(--color-line, #e3e6eb); border-radius: 8px; background: var(--color-panel, #fff); } .ds-table:focus-visible { outline: 2px solid var(--color-accent, #2b59ff); outline-offset: 2px; } .ds-table table { width: 100%; border-collapse: collapse; text-align: left; font-family: var(--font-mono, 'IBM Plex Mono', ui-monospace, monospace); font-size: 12px; color: var(--color-ink, #0e1621); } .ds-table thead th { position: sticky; top: 0; padding: 8px 12px; background: var(--color-panel-2, #f7f8fa); color: var(--color-muted, #5b6573); font-weight: 500; text-transform: uppercase; } .ds-table td { padding: 6px 12px; border-top: 1px solid var(--color-line, #e3e6eb); } .ds-table .num { text-align: right; font-variant-numeric: tabular-nums; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Operations Ledger",
+    "overview": "The system behaves like a well-kept ledger: ruled, exact and accountable. Every figure sits on a clean white page inside a hairline rule, and nothing on the page is allowed to be louder than the numbers it carries. Colour is a pen, not paint. Signal Blue records the main line of the story (the primary series, the leading item, the one action that matters). Alarm Red is the correction pen, used only where something went wrong. Everything else is graphite and paper.\n\nThe mood is calm, exact and accountable. The canvas is a cool, barely tinted grey with white panels resting on it, and depth comes only from tone and 1px rules, never from shadows. A single dark ink strip (Signals) is where the system speaks in sentences. Type pairs a sturdy grotesque for reading with a monospace for anything measured or machine-produced, so a reader can tell at a glance what is prose and what is a reading off the instrument. It is a single page with no navigation chrome: a small ink brand mark sits beside the title, and the data gets the full width.\n\nMotion follows the same discipline. When a filter changes, the ledger re-writes itself: lines morph from the old values to the new ones so the reader sees what moved, stale numbers dim while fresh ones load, and nothing replays an entrance for show. The layout narrows gracefully when the chat column opens beside it, and it is never covered on a desktop.\n\nConfirmed rejection: vivid gradient-heavy \"AI dashboard\" styling (neon gradients, glowing cards, gradient fills). The owner rejected an early version as looking vibe-coded, and the system exists in deliberate contrast to it.",
+    "keyCharacteristics": [
+      "Flat white panels on a cool grey page, separated by 1px hairlines; zero shadows.",
+      "One accent (Signal Blue) and one warning (Alarm Red), each with a single job.",
+      "Hanken Grotesk for reading, IBM Plex Mono for measured values, labels and system output.",
+      "A single dark ink strip for plain-English findings computed from the data.",
+      "Charts drawn like annotations that morph, not redraw, when the data changes.",
+      "One page, no navigation; layout driven by the width of the content column, not the window."
+    ],
+    "rules": [
+      {
+        "name": "The Alarm Means Something Rule",
+        "body": "Alarm Red appears only where something went wrong. It is never decoration, never a brand colour, never a second accent. If a screen has no problem to report, it has no red.",
+        "section": "colors"
+      },
+      {
+        "name": "The First-in-Rank Rule",
+        "body": "In a ranked list only the leader gets Signal Blue. Everything else is Bar Grey, and only the worst item may turn red when ranking profit or performance, and only when there is more than one item.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Dark Strip Rule",
+        "body": "Ink as a surface is reserved for the Signals findings. One dark strip per screen, at most.",
+        "section": "colors"
+      },
+      {
+        "name": "The Edge-You-Can-See Rule",
+        "body": "Containers may use the faint Hairline; anything you can click, type into or choose from uses Control Line (3:1). The two must never be swapped.",
+        "section": "colors"
+      },
+      {
+        "name": "The Mono Means Measured Rule",
+        "body": "IBM Plex Mono is for things that are measured or machine-produced: labels, ticks, values, tool steps, SQL. Never set prose or headlines in mono.",
+        "section": "typography"
+      },
+      {
+        "name": "The Big Number Rule",
+        "body": "A KPI figure is the largest text inside its card and sits directly under its mono label, with a one-line plain-English sub-line under it. Nothing else in the card competes with it.",
+        "section": "typography"
+      },
+      {
+        "name": "The Narrow-Gracefully Rule",
+        "body": "Nothing may set a width that stops the main column from shrinking. The page makes room for the chat; on a desktop the chat never covers the page.",
+        "section": "layout"
+      },
+      {
+        "name": "The No-Orphan Rule",
+        "body": "Column counts are chosen per group so items divide evenly at every width: six KPIs go 2 / 3 / 6, three panels go 1 / 2 (+ full row) / 3.",
+        "section": "layout"
+      },
+      {
+        "name": "The No-Shadow Rule",
+        "body": "Surfaces are flat. If something needs to stand apart, change its tone or give it a rule. Never add a shadow, glow or blur.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** keep every surface flat: tone (#f3f4f6 → #ffffff → #0e1621) and 1px rules carry all depth.",
+      "**Do** give each screen exactly one solid Signal Blue (#2b59ff) action.",
+      "**Do** reserve Alarm Red (#d92d3a) for things that went wrong, so red always means a problem.",
+      "**Do** border every interactive control with Control Line (#868e9a) and every container with Hairline (#e3e6eb).",
+      "**Do** set measured values, labels, ticks and system output in IBM Plex Mono, and sentences in Hanken Grotesk.",
+      "**Do** pair every chart colour with a second cue (solid, dashed or dotted lines, labels on marked points, legends, printed values), so colour never carries meaning alone.",
+      "**Do** give every chart a spoken summary and every data panel its loading, error, empty and updating states.",
+      "**Do** let charts morph between data states, and respect reduced motion.",
+      "**Do** size grids by the content column (container queries), so the page reflows the same way for a phone and for an open chat."
+    ],
+    "donts": [
+      "**Don't** use vivid gradients, neon glows or gradient-filled cards. This look was explicitly rejected.",
+      "**Don't** add shadows, blurs or glows to any surface, at rest or on hover.",
+      "**Don't** use Alarm Red decoratively or as a second brand colour.",
+      "**Don't** add a second dark surface; the Ink strip is reserved for Signals.",
+      "**Don't** put Ok Green (#1f8a4c) on small text; it is for icons only.",
+      "**Don't** set prose or headlines in monospace, or measured values in the grotesque.",
+      "**Don't** add navigation for pages that do not exist.",
+      "**Don't** replay a chart's entrance animation on a data update, or animate anything for show.",
+      "**Don't** float the chat over the dashboard on desktop widths."
+    ]
+  }
+}

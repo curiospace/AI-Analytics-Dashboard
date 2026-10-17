@@ -1,0 +1,102 @@
+@import "tailwindcss";
+
+/* Design tokens from the approved "Paper Light" mockup. Each --color-* becomes bg-*, text-*, border-*,
+   fill-*, stroke-* (e.g. bg-panel, text-muted, border-line, stroke-accent); --font-* becomes font-sans / font-mono. */
+@theme {
+  /* surfaces */
+  --color-bg: #f3f4f6;
+  --color-panel: #ffffff;
+  --color-panel-2: #f7f8fa;
+  --color-line: #e3e6eb;
+  --color-line-strong: #d5d9e0;
+  --color-control-line: #868e9a; /* borders of interactive controls: 3:1 against panel and page (WCAG 1.4.11) */
+  --color-track: #eef0f3;
+
+  /* text */
+  --color-ink: #0e1621;
+  --color-muted: #5b6573;
+  --color-snow: #e3e7ee; /* text on dark panels (bg-ink) */
+  --color-night-line: #243040; /* dividers on dark panels */
+  --color-accent-light: #8fb0ff; /* accent and alert, lightened to read on dark panels */
+  --color-alert-light: #ff8d96;
+
+  /* data colours: blue = primary signal, red = problems only, greys = everything else */
+  --color-accent: #2b59ff;
+  --color-accent-deep: #1c40e7; /* hover on Signal Blue fills: one step down its ramp */
+  --color-alert: #d92d3a;
+  --color-ok: #1f8a4c;
+  --color-series: #7a8494;
+  --color-bar: #c9ced6;
+  --color-series-4: #5c7ac4; /* fourth chart series: a darker Signal Blue step, 4.2:1 on white */
+
+  --font-sans: "Hanken Grotesk", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+
+  --container-drawer: 440px; /* the docked chat column (w-drawer) */
+
+  --radius-panel: 14px;
+  --radius-control: 10px;
+  --radius-mark: 9px; /* the ink brand and chat marks */
+
+  /* chat prose reads one step larger than dashboard body; measured values use the data size */
+  --text-chat: 0.9375rem;
+  --text-chat--line-height: 1.625;
+  --text-data: 0.8125rem;
+  --text-data--line-height: 1.4;
+  /* the smallest size anywhere: mono labels, captions, tool steps, chart axes. Nothing goes below it:
+     the dashboard is shown as a compressed screen recording */
+  --text-meta: 0.6875rem;
+  --text-meta--line-height: 1.5;
+
+  /* motion: one confident ease-out for everything that arrives */
+  --ease-arrive: cubic-bezier(0.16, 1, 0.3, 1);
+  --animate-drawer-in: drawer-in 260ms var(--ease-arrive);
+  --animate-fade-in: fade-in 180ms ease-out;
+  @keyframes drawer-in {
+    from {
+      opacity: 0;
+      transform: translateX(24px);
+    }
+  }
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+  }
+}
+
+/* small mono uppercase label used on KPI cards and chart captions */
+@utility eyebrow {
+  font-family: var(--font-mono);
+  font-size: var(--text-meta);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-muted);
+}
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+/* one focus style for every keyboard-focused control; components with an outer frame (composer, filter fields)
+   draw it on the frame instead and turn the inner outline off */
+@layer base {
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+  }
+  ::selection {
+    background: color-mix(in oklab, var(--color-accent) 20%, transparent);
+    color: var(--color-ink);
+  }
+  input,
+  textarea {
+    caret-color: var(--color-accent);
+  }
+  html {
+    scrollbar-color: var(--color-bar) transparent;
+  }
+}
