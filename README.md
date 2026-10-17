@@ -149,7 +149,7 @@ flowchart TB
 
 - **Answer first, evidence one click away**, so a busy manager reads one sentence and an analyst can still audit it.
 - **One accent colour (Signal Blue) and one warning colour (Alarm Red)**: red appears only where something went wrong, and colour is always paired with text or a line style.
-- **A flat, ledger-like look** (paper-white panels, hairline rules, Hanken Grotesk for reading and IBM Plex Mono for measured values) in deliberate contrast to gradient-heavy "AI dashboard" styling. Full system in `DESIGN.md`.
+- **A flat, ledger-like look** (paper-white panels, hairline rules, Hanken Grotesk for reading and IBM Plex Mono for measured values) in deliberate contrast to gradient-heavy "AI dashboard" styling.
 
 ---
 
@@ -385,8 +385,6 @@ data-analytics/
 │   ├── src/lib/              API client, filters, formatting, chart options, chat state
 │   ├── scripts/check-theme.mjs   build check: chart colours match the design tokens
 │   └── index.html
-├── PRODUCT.md                users, purpose and product principles
-├── DESIGN.md                 the design system ("The Operations Ledger")
 ├── DATA_NOTES.md             data exploration findings and metric definitions
 └── AI Analytics A2.pdf       the assessment brief
 ```
@@ -395,6 +393,4 @@ data-analytics/
 
 ## 12. Further documentation
 
-- **`PRODUCT.md`**: who the product is for, its purpose, positioning and principles.
-- **`DESIGN.md`**: the full design system (colours, typography, layout, components, motion, do's and don'ts), with machine-readable tokens in its frontmatter and `.impeccable/design.json`.
 - **`DATA_NOTES.md`**: what the data exploration found and how each metric is defined.

@@ -5,3 +5,7 @@ __pycache__/
 frontend/node_modules/
 frontend/dist/
 .DS_Store
+.impeccable/
+DESIGN.md
+PRODUCT.md
+/AI Analytics*.pdf
