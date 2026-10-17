@@ -19,7 +19,6 @@ A proof of concept for **AI Analytics, Assessment 2**: a generative-AI analytics
 9. [Risks and ethics](#9-risks-and-ethics)
 10. [Conclusions and recommendations](#10-conclusions-and-recommendations)
 11. [Project structure](#11-project-structure)
-12. [Further documentation](#12-further-documentation)
 
 ---
 
@@ -186,7 +185,6 @@ flowchart TB
 | Lead time | `completionDate − creationDate` for delivered orders |
 | Estimated profit per order | Net order value − material cost − design hours × average designer wage − (milling + joinery + finishing hours) × average maker wage |
 
-More detail on the data exploration is in `DATA_NOTES.md`.
 
 ---
 
@@ -385,12 +383,6 @@ data-analytics/
 │   ├── src/lib/              API client, filters, formatting, chart options, chat state
 │   ├── scripts/check-theme.mjs   build check: chart colours match the design tokens
 │   └── index.html
-├── DATA_NOTES.md             data exploration findings and metric definitions
 └── AI Analytics A2.pdf       the assessment brief
 ```
 
----
-
-## 12. Further documentation
-
-- **`DATA_NOTES.md`**: what the data exploration found and how each metric is defined.
