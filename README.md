@@ -42,18 +42,19 @@ The dashboard alone shows the standing picture (KPIs, trends, rankings and plain
 
 ## 2. Business problem analysis
 
-> **Note:** the Case Study document referred to in the brief was not available for this project. The analysis below starts from the four challenges the brief names (demand forecasting, production efficiency, cost control, reputation management) and measures each one in the simulator data.
+This analysis follows the five challenges named in the Case Study and measures each one in the A2 data (January 2025 to December 2026, all figures computed with SQL on the provided CSV files).
 
-All figures are for January 2025 to December 2026 and were computed with SQL on the provided CSV files.
+**Context from Assessment 1.** Raising the Quote Win Chance from 40% to 60% overloaded the workshop: on-time delivery fell from 94.0% to 57.3%, late penalties reached $240,708 and closing cash went from about +$1.09M to −$0.28M. Recent on-time performance was the strongest early signal of falling demand, so the business needs an early warning when delivery slips. This agent lets a manager check for it by asking.
 
-| Rank | Challenge | What the data shows | Business question the agent answers |
-|---|---|---|---|
-| 1 | **Production efficiency** | Joinery takes 29.8 of 74.6 labour hours per delivered order (40%), the largest stage in every quarter, including Q4 2026 (29.5 of 73.8 hours). | *"What was our biggest production bottleneck last quarter?"* |
-| 2 | **Reputation: on-time delivery** | On-time delivery is normally near 100%, but fell to **18% in November 2025** (after 5 resignations from July to October 2025) and **24% in May 2026**. **9 of the 13 designers** on the roster have resigned. 61 delivered orders were late, each paying a 10% penalty. | *"Show me the impact of employee resignations on our on-time delivery rate."* |
-| 3 | **Cost control** | Revenue beat costs by only **$214K (4.3%)** over two years ($4.98M against $4.76M). Late penalties cost **$60K**, about 28% of that margin. Daily wages and overheads are $3.17M of cost; material reorders $1.61M. | *"Which product type is the most profitable?"* |
-| 4 | **Demand forecasting** | About 47 new quotes a month, peaking at 70 in October 2026. **54% to 62% of quotes are lost** (rejected by the customer) for every product; Sideboard, the most profitable product per order, is also the most often lost (62%). | *"How is demand trending, and which products lose the most quotes?"* |
+| Rank | Case Study challenge | What the data shows | Question the agent answers | Coverage |
+|---|---|---|---|---|
+| 1 | **Employee turnover** | 9 of 13 designers have resigned, including 3 of the 5 high-skill designers, who did 87% of all design jobs. | *"Show me the impact of employee resignations on our on-time delivery rate."* | Full |
+| 2 | **Quality and timeliness** | On-time delivery fell to **18% in November 2025** and **24% in May 2026**, with lead time near 20 days against a 13.7-day average. 61 of 458 delivered orders paid a 10% late penalty. | *"Which months did we deliver late, and how late?"* | Full |
+| 3 | **Resource allocation** | Joinery takes 40% of labour hours per order (29.8 of 74.6), the largest stage in every quarter. | *"What was our biggest production bottleneck last quarter?"* | Full (no scheduling) |
+| 4 | **Cost management** | Revenue beat costs by only **$214K (4.3%)** over two years. Wages are 62% of costs; late penalties ($60K) ate 28% of the margin. | *"Which product type is the most profitable?"* | Full (profit is estimated) |
+| 5 | **Forecasting demand** | October averages 66 quotes against 34 in June. About 60% of quotes are lost, for every product. | *"How is demand trending, and which products lose the most quotes?"* | Partial: past trends only |
 
-**Prioritisation.** Production efficiency, on-time delivery and cost control come first because they are where money is lost today: a bottleneck stage, penalties on late orders, and a margin thin enough that one bad quarter erases it. Demand trends are supported, but forecasting itself is a recommendation (section 10), not part of this prototype.
+**Prioritisation.** Turnover and timeliness come first because that is where money and reputation are being lost now, and A1 showed that late delivery feeds a spiral of lower reputation and demand. The joinery bottleneck and a 4.3% margin follow. Demand is described but not forecast; a forecast building on the A1 model is recommended (section 10). Questions such as the optimal Quote Win Chance need several simulator runs, which this single-run dataset cannot provide; A1 addressed that one.
 
 ---
 
