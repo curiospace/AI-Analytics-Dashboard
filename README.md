@@ -344,7 +344,6 @@ Open http://localhost:5173 and select **Ask the data**.
 
 ### Limitations
 
-- The data is simulated, and the Case Study document was not available, so the problem analysis rests on the brief and the data.
 - Labour cost uses the average wage per role, not each employee's actual time.
 - The financial ledger has no product column, so profit by product is estimated per order, not reconciled to the ledger.
 - There is no forecasting model; demand questions describe the past.
